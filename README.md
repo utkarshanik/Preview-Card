@@ -28,8 +28,8 @@ Users should be able to:
 ![](nft-preview-card-component-main\design\active_State.png)
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-preview-card-URiUAOn5Da)
+- Live Site URL: (https://utkarshanik.github.io/Preview-Card/)
 
 ### Built with
 - Semantic HTML5 markup
