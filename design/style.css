@@ -1,0 +1,181 @@
+body
+{
+  background-color:hsl(215.63deg 55.17% 11.37%) ;
+  font-family:"Outfit", sans-serif;
+  
+}
+.container1
+{
+  width: 48vh;
+  height:75vh;
+  margin:50px auto;
+  background-color:hwb(214 8% 75%);
+  border-radius: 4%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image
+{
+  height: 38vh;
+  width: 18vw;
+  display:flex;  
+  position:relative;
+  top: 5%;
+  margin: auto;
+  border-radius:4%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+  background-color: rgb(109, 244, 244);
+}
+
+#img1
+{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: inherit;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+  opacity:1;
+  z-index: 1;
+}
+
+.img2
+{
+  height: 10vh;
+  margin: auto auto;
+  opacity: 0;
+  z-index: 2;
+}
+
+.image:hover #img1
+{
+  opacity: 0.4;
+  cursor:pointer;
+}
+
+.image:hover .img2
+{
+  opacity: 1.5;
+  cursor:pointer;
+}
+
+.container2
+{
+
+  height: 38vh;
+  width: 18vw;
+  padding-top: 10%;
+  padding-left: 10%;
+  color: hwb(240 56% 29%)
+}
+
+h3{
+color: aliceblue;
+font-size: 18px;
+}
+
+h3:hover
+{
+  cursor:pointer;
+  color: aqua;
+  transition: color 0.3s ease;
+}
+
+#img3
+{
+  width: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.span1{
+  padding-bottom: 10px;
+  color: azure;
+  vertical-align: top;
+}
+
+#sp1
+{
+  color: hsl(178.35deg 100% 50%);
+}
+
+#sp2
+{
+  display: inline-flex;
+  position: relative ;
+  left:28% ;
+  color: hwb(240 56% 29%)
+
+}
+
+#name:hover
+{
+  color: hsl(178.35deg 100% 50%) !important;
+  cursor:pointer;
+}
+
+#sp3
+{
+  color: hwb(240 56% 29%);
+}
+
+/* Responsive Design */
+/* Small screens (Mobile devices) */
+@media (max-width: 600px) {
+    .container1 {
+        width: 90vw;
+        height: auto;
+        margin: 10px;
+    }
+
+    .image {
+        height: 25vh;
+        width: 80vw;
+    }
+
+    #img1 {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container2 {
+        height: auto;
+        width: 100%;
+        padding: 5% 5%;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Large screens (Laptops and above) */
+@media (min-width: 1024px) {
+    .container1 {
+        width: 48vh;
+        height: 75vh;
+        margin: 50px auto;
+    }
+
+    .image {
+        height: 38vh;
+        width: 18vw;
+    }
+
+    .container2 {
+        height: 38vh;
+        width: 18vw;
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);}
